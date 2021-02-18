@@ -7,6 +7,10 @@ Version 1.7
 1.7.1 :small:`the future`
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. rubric:: Features
+
+- :func:`~scanpy.tl.filter_rank_genes_groups` now allows to filter with absolute values of log fold change :pr:`1649` :smaller:`S Rybakov`
+
 .. rubric:: Bugfixes
 
 - :func:`~scanpy.tl.dendrogram` use `1 - correlation` as distance matrix to compute the dendrogram :pr:`1614` :smaller:`F Ramirez`
