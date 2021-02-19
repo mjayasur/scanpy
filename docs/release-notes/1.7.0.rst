@@ -1,21 +1,3 @@
-.. role:: small
-.. role:: smaller
-
-Version 1.7
------------
-
-1.7.1 :small:`the future`
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. rubric:: Features
-
-- :func:`~scanpy.tl.filter_rank_genes_groups` now allows to filter with absolute values of log fold change :pr:`1649` :smaller:`S Rybakov`
-
-.. rubric:: Bugfixes
-
-- :func:`~scanpy.tl.dendrogram` use `1 - correlation` as distance matrix to compute the dendrogram :pr:`1614` :smaller:`F Ramirez`
-- Fixed :func:`~scanpy.get.obs_df`/ :func:`~scanpy.get.var_df` erroring when `keys` not passed :pr:`1637` :smaller:`I Virshup`
-
 1.7.0 :small:`2021-02-03`
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
